@@ -1,0 +1,112 @@
+
+
+
+image {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  margin: 0;
+  padding: 0;
+}
+
+.vector {
+  margin: 0;
+  padding: 0;
+  height: 622px;
+  position: relative;
+  width: 677px;
+  float: right;
+}
+
+
+* {
+  margin: 0;
+}
+.image-container {
+  position: relative;
+}
+
+.image1,
+.image2 {
+  position: absolute;
+  top:0px;
+  left: -45px;
+}
+
+.image2 {
+  /* Adjust the positioning of the second image as needed */
+  left: 523px;
+  top: 40px;
+}
+
+.loginpanel {
+  position: relative;
+  background-color: #dddbcb;
+  border-radius: 30px;
+  top: 120px;
+  left: 640px;
+  border: 1px solid black;
+  height: 350px;
+  width: 400px;
+  box-shadow: 3px 10px 500px black;
+}
+
+.userinputlabel {
+  position: relative;
+  right: 65px;
+}
+
+.userinputtext {
+  background-color: #ece8e8;
+  position: relative;
+  right: 15px;
+}
+
+.loginbutton {
+  font-size: -large;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 20px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  position: relative;
+  left: 26%;
+  height: 25px;
+  width: 150px;
+  display: block;
+  background-color: #828282;
+}
+
+.loginbutton:hover {
+  cursor: pointer;
+  box-shadow: 1px 4px 8px rgb(156, 156, 156);
+  transition: 0.25s;
+}
+
+.inputcheckbox {
+  position: relative;
+  margin-top: 10px;
+  right: 10px;
+  display: inline;
+}
+
+#checkbox-terms {
+  position: relative;
+  top: 52vh;
+  right: 8vw;
+}
+
+#checkbox-user {
+  position: relative;
+  top: 45vh;
+  right: 7vw;
+}
+
+#checkbox-provider {
+  position: relative;
+  top: 39vh;
+  left: 2vw;
+}
+
